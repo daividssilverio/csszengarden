@@ -11,7 +11,7 @@ body {
     width: 890px;
     background: black;
     color: white;
-    margin: auto;
+    margin: 60px auto;
 }
 
 #pageHeader {
@@ -79,4 +79,24 @@ body {
 
 #requirements h3 span {
   display: none;
+}
+
+#extraDiv1{
+	background-image: url('nave.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 50px;
+	width: 890px;
+	position: fixed;
+	top: 0px;
+}
+
+#extraDiv2{
+	background-image: url('atira.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 35px;
+	width: 890px;
+	position: fixed;
+	bottom: 0px;
 }
