@@ -1,0 +1,38 @@
+html {
+    background: transparent url("estrelas.png");
+}
+body, #intro, #containerm, html, #pageHeader {
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+}
+
+body {
+    width: 890px;
+    background: black;
+    color: white;
+    margin: auto;
+}
+
+#pageHeader {
+    background: transparent url("imagen1.jpg");
+    background-repeat: repeat-x;
+    height: 300px;
+}
+
+#pageHeader h1 {
+    background: transparent url("fundo-preto-letras.png");
+    height: 43px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 6em;
+}
+
+#pageHeader h1 span, #pageHeader h2 span {
+    display: none;
+}
+
+#container {
+    z-index: 0;
+}
+
