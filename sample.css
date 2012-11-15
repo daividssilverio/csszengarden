@@ -36,3 +36,47 @@ body {
     z-index: 0;
 }
 
+#preamble h3 {
+  background: transparent url(imagens/ti-iluminacao.png) no-repeat top left;
+  height: 100px;
+}
+
+#preamble h3 span {
+  display: none;
+}
+
+#explanation h3 {
+  background: transparent url(imagens/t2-comoassim.png) no-repeat top left;
+  height: 100px;
+}
+
+#explanation h3 span {
+  display: none;
+}
+
+#participation h3 {
+  background: transparent url(imagens/t3-participacao.png) no-repeat top left;
+  height: 100px;
+}
+
+#participation h3 span {
+  display: none;
+}
+
+#benefits h3 {
+  background: transparent url(imagens/t4-beneficios.png) no-repeat top left;
+  height: 100px;
+}
+
+#benefits h3 span {
+  display: none;
+}
+
+#requirements h3 {
+  background: transparent url(imagens/t5-requerimentos.png) no-repeat top left;
+  height: 100px;
+}
+
+#requirements h3 span {
+  display: none;
+}
