@@ -81,7 +81,60 @@ body {
   display: none;
 }
 
-#extraDiv1{
+/* Thiago */
+
+#supportingText, #quickSummary, #preamble {
+	margin-left: 180px;
+}
+
+#linkList {
+	position: absolute;
+	top: 370px;
+	width: 160px;
+	border-style: dashed;
+	border-width: 1px;
+	border-color: gray;
+}
+
+#lselect, #larchives, #lresources{
+	padding: 0px;
+}
+
+#lselect h3, #larchives h3, #lresources h3{
+	background-color: gray;
+	text-align: center;
+}
+
+#lselect ul, #larchives ul, #lresources ul{
+	list-style-type: none;
+	position: relative;
+	right: 10px;
+}
+
+#lselect li, #larchives li, #lresources li {
+	margin-top: 10px;
+}
+
+#lselect li a, #larchives li a, #lresources li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	font-size: .8em;
+	font-weight: bold;
+	font-family: Arial;
+}
+
+#lselect li a.c, #larchives li a.c, #lresources li a.c {
+	text-transform: capitalize;
+	font-size: .7em;
+	color: #6DBF51;
+}
+
+#lselect li a:hover, #larchives li a:hover, #lresources li a:hover {
+	text-decoration: underline;
+}
+
+#extraDiv1 {
 	background-image: url('nave.png');
 	background-position: center;
 	background-repeat: no-repeat;
@@ -91,7 +144,7 @@ body {
 	top: 0px;
 }
 
-#extraDiv2{
+#extraDiv2 {
 	background-image: url('atira.png');
 	background-position: center;
 	background-repeat: no-repeat;
