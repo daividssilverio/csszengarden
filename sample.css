@@ -82,6 +82,12 @@ h2{
     height: 100px;
 }
 
+#quickSummary p.p2 span a{
+   text-decoration: none;
+   font-style: oblique;
+   color: orange;
+}
+
 #supportingText, #quickSummary, #preamble {
     margin-left: 220px;
 }
@@ -132,6 +138,36 @@ h2{
     text-decoration: underline;
 }
 
+#participation p.p1 span a{
+   text-decoration: none;
+   font-style: oblique;
+   color: orange;
+}
+
+#participation p.p3 span a{
+   text-decoration: none;
+   font-style: oblique;
+   color: orange;
+}
+
+#requirements p.p2 span a{
+   text-decoration: none;
+   font-style: oblique;
+   color: orange;
+}
+
+#requirements p.p4 span a{
+   text-decoration: none;
+   font-style: oblique;
+   color: orange;
+}
+
+#requirements p.p5 span a{
+   text-decoration: none;
+   font-style: oblique;
+   color: orange;
+}
+
 /* nave fixa */
 #extraDiv1 {
     background: url('imagens/nave.png') no-repeat right;
@@ -171,4 +207,38 @@ h2{
 }
 
 /* fim customização dos bullets das listas */
+
+
+/* Início da customização de cada link do footer */
+
+#footer :nth-child(1){
+	background: url('imagens/1.png');
+}
+
+#footer :nth-child(2){
+	background: url('imagens/2.png');
+}
+#footer :nth-child(3){
+	background: url('imagens/3.png');
+}
+#footer :nth-child(4){
+	background: url('imagens/4.png');	
+}
+#footer :nth-child(5){
+	background: url('imagens/5.png');
+
+}
+/* Fim da customização de cada link do footer */
+
+/**/
+#footer *{
+	display: inline-block;
+	width: 105px;
+	height: 68px;
+	font-size: 0px;
+	margin: 0;
+	padding: 0;	
+	margin-right: -20px;
+}
+
 
