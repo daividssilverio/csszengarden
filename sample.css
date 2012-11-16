@@ -1,10 +1,7 @@
+@import url('http://fonts.googleapis.com/css?family=Press+Start+2P');
+
 html {
-    background: transparent url("estrelas.png");
-}
-body, #intro, #containerm, html, #pageHeader {
-    margin: 0;
-    padding: 0;
-    z-index: 0;
+    background: black;
 }
 
 body {
@@ -12,156 +9,143 @@ body {
     background: black;
     color: white;
     margin: 60px auto;
+    font-family: 'Press Start 2P', sans-serif;
+    line-height: 1.2em;
 }
 
 #pageHeader {
-    background: transparent url("imagen1.jpg");
-    background-repeat: repeat-x;
+    background: transparent url("imagens/imagen1.jpg") repeat-x;
     height: 300px;
 }
 
+/* header lateral */
 #pageHeader h1 {
-    background: transparent url("fundo-preto-letras.png");
-    height: 43px;
-    background-repeat: no-repeat;
-    background-position: center;
+    height: 664px;
+    width: 126px;
+    background: transparent url("imagens/girado.png") no-repeat center;
+    position: absolute;
+    left: 30px;
     padding-top: 6em;
 }
+
+/* fim header lateral */
 
 #pageHeader h1 span, #pageHeader h2 span {
     display: none;
 }
 
-#container {
-    z-index: 0;
+#preamble h3 span, #explanation h3 span,#participation h3 span, #benefits h3 span, #requirements h3 span {
+    display: none;
 }
 
 #preamble h3 {
-  background: transparent url(imagens/ti-iluminacao.png) no-repeat top left;
-  height: 100px;
-}
-
-#preamble h3 span {
-  display: none;
+    background: transparent url(imagens/ti-iluminacao.png) no-repeat top right;
+    height: 100px;
 }
 
 #explanation h3 {
-  background: transparent url(imagens/t2-comoassim.png) no-repeat top left;
-  height: 100px;
-}
-
-#explanation h3 span {
-  display: none;
+    background: transparent url(imagens/t2-comoassim.png) no-repeat top left;
+    height: 100px;
 }
 
 #participation h3 {
-  background: transparent url(imagens/t3-participacao.png) no-repeat top left;
-  height: 100px;
-}
-
-#participation h3 span {
-  display: none;
+    background: transparent url(imagens/t3-participacao.png) no-repeat top right;
+    height: 100px;
 }
 
 #benefits h3 {
-  background: transparent url(imagens/t4-beneficios.png) no-repeat top left;
-  height: 100px;
-}
-
-#benefits h3 span {
-  display: none;
+    background: transparent url(imagens/t4-beneficios.png) no-repeat top left;
+    height: 100px;
 }
 
 #requirements h3 {
-  background: transparent url(imagens/t5-requerimentos.png) no-repeat top left;
-  height: 100px;
+    background: transparent url(imagens/t5-requerimentos.png) no-repeat top right;
+    height: 100px;
 }
-
-#requirements h3 span {
-  display: none;
-}
-
-/* Thiago */
 
 #supportingText, #quickSummary, #preamble {
-	margin-left: 180px;
+    margin-left: 220px;
 }
 
 #linkList {
-	position: absolute;
-	top: 370px;
-	width: 160px;
-	border-style: dashed;
-	border-width: 1px;
-	border-color: gray;
+    position: absolute;
+    top: 370px;
+    width: 200px;
+    border: 1px dashed gray;
 }
 
-#lselect, #larchives, #lresources{
-	padding: 0px;
+#lselect, #larchives, #lresources {
+    padding: 0;
 }
 
-#lselect h3, #larchives h3, #lresources h3{
-	background-color: gray;
-	text-align: center;
+#lselect h3, #larchives h3, #lresources h3 {
+    background-color: gray;
+    text-align: center;
 }
 
-#lselect ul, #larchives ul, #lresources ul{
-	list-style-type: none;
-	position: relative;
-	right: 10px;
+#lselect ul, #larchives ul, #lresources ul {
+    list-style-type: none;
+    position: relative;
+    right: 10px;
 }
 
 #lselect li, #larchives li, #lresources li {
-	margin-top: 10px;
+    margin-top: 10px;
 }
 
 #lselect li a, #larchives li a, #lresources li a {
-	text-decoration: none;
-	text-transform: uppercase;
-	color: white;
-	font-size: .8em;
-	font-weight: bold;
-	font-family: Arial;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: .8em;
+    font-weight: bold;
+ /*   font-family: Arial, sans-serif; */
 }
 
 #lselect li a.c, #larchives li a.c, #lresources li a.c {
-	text-transform: capitalize;
-	font-size: .7em;
-	color: #6DBF51;
+    text-transform: capitalize;
+    font-size: .7em;
+    color: #6DBF51;
 }
 
 #lselect li a:hover, #larchives li a:hover, #lresources li a:hover {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
+/* nave fixa */
 #extraDiv1 {
-	background-image: url('nave.png');
-	background-position: center;
-	background-repeat: no-repeat;
-	height: 50px;
-	width: 2000px;
-	position: fixed;
-	top: 0px;
+    background: url('imagens/nave.png') no-repeat center;
+    height: 50px;
+    width: 2000px;
+    position: fixed;
+    top: 0;
 }
 
+/* fim nave fixa */
+
+/* nave de ataque fixa */
 #extraDiv2 {
-	background-image: url('atira.png');
-	background-position: center;
-	background-repeat: no-repeat;
-	height: 35px;
-	width: 2000px;
-	position: fixed;
-	bottom: 0px;
+    background: url('imagens/atira.png') no-repeat center;
+    height: 35px;
+    width: 2000px;
+    position: fixed;
+    bottom: 0;
 }
 
-#lselect ul li{
-	list-style-image: url('20X20.png');
+/* fim nave de ataque fixa */
+
+/* customização dos bullets das listas */
+
+#lselect ul li {
+    list-style-image: url('imagens/20x20.png');
 }
 
-#larchives ul li{
-	list-style-image: url('20x20 - amarelo.png');
+#larchives ul li {
+    list-style-image: url('imagens/20x20 - amarelo.png');
 }
 
-#lresources ul li{
-	list-style-image: url('20x20 - roxo.png');
+#lresources ul li {
+    list-style-image: url('imagens/20x20 - roxo.png');
 }
+
+/* fim customização dos bullets das listas */
