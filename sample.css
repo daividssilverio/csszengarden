@@ -139,7 +139,7 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 50px;
-	width: 890px;
+	width: 2000px;
 	position: fixed;
 	top: 0px;
 }
@@ -149,7 +149,19 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 35px;
-	width: 890px;
+	width: 2000px;
 	position: fixed;
 	bottom: 0px;
+}
+
+#lselect ul li{
+	list-style-image: url('20X20.png');
+}
+
+#larchives ul li{
+	list-style-image: url('20x20 - amarelo.png');
+}
+
+#lresources ul li{
+	list-style-image: url('20x20 - roxo.png');
 }
