@@ -1,14 +1,15 @@
 @import url('http://fonts.googleapis.com/css?family=Press+Start+2P');
 
 html {
-    background: black;
+    background: url("imagens/estrelas.png");
 }
 
 body {
     width: 890px;
     background: black;
     color: white;
-    margin: 60px auto;
+    margin: auto;
+    margin-left: 240px;
     font-family: 'Press Start 2P', sans-serif;
     line-height: 1.2em;
 }
@@ -22,7 +23,7 @@ body {
 #pageHeader h1 {
     height: 664px;
     width: 126px;
-    background: transparent url("imagens/girado.png") no-repeat center;
+    background: transparent url("imagens/girado_transparente.png") no-repeat center;
     position: absolute;
     left: 30px;
     padding-top: 6em;
@@ -149,3 +150,4 @@ body {
 }
 
 /* fim customização dos bullets das listas */
+
